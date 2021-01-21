@@ -5,7 +5,6 @@ Projeto desenvolvido para testes da Open Weather API http://openweathermap.org/c
 #### **O projeto possui as seguintes Gems:**
 
 - Cucumber (permite a escrita de testes em uma linguagem muito próxima da natural)
-- Faker (usado para gerar dados falsos: nomes, endereços, números de telefone etc)
 - Httparty (facilita o consumo de serviços rest)
 - Rspec (framework BDD para ruby)
 
