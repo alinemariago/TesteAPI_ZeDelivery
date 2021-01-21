@@ -24,14 +24,30 @@ Projeto desenvolvido para testes da Open Weather API http://openweathermap.org/c
 - Ruby >= 2.6.6;
 - Bundler;
 
-
-
 ### Instalação:
 
-##### *Guia de instalação do Ruby + Devkit + Bundler no Windows:* - https://medium.com/qaninja/instalando-ruby-cucumber-e-capybara-no-windows-10-acb1fe833a95
+###### Linux:
 
-- *[Bundler]*
-  - *gem install bundler*
+```bash
+#[Rbenv] - O Rbenv fornece suporte para trabalhar com versões do Ruby. Comandos linux para instalação:
+  git clone https://github.com/rbenv/rbenv.git ~/.rbenv
+  echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
+  echo 'eval "$(rbenv init -)"' >> ~/.bashrc
+  source ~/.bashrc
+  type rbenv
+  git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
+#[Ruby] - Comandos linux para instalação:
+  rbenv install -l
+  rbenv install 2.6.1
+  rbenv global 2.6.1 Para verificar se deu tudo certo, digite o comando:
+  ruby -v
+#[Bundler]
+  gem install bundler
+```
+
+###### Windows:
+
+##### *Guia de instalação do Ruby + Devkit + Bundler no Windows:* - https://medium.com/qaninja/instalando-ruby-cucumber-e-capybara-no-windows-10-acb1fe833a95
 
 ### Executando os testes:
 

@@ -21,7 +21,7 @@ Cenário: Buscar por cidade e estado
     Dado que eu tenha o "nome","estado" de uma cidade
     Quando eu faço uma solicitação GET
     Então devo receber as informações detalhadas do clima da cidade
-    E o code deve ser "200"
+     E o status code deve ser "200"
 
 @buscar_por_cidade_estado_caixapostal
 Cenário: Buscar por cidade e estado
